@@ -1,0 +1,74 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+% Essential AMS packages for mathematical writing
+\usepackage{amsmath, amssymb, amsthm, mathtools, bm}
+% Extra symbol packages
+\usepackage{mathrsfs, esint, xfrac}
+% Improved matrix environments
+\usepackage{nicematrix}
+% Useful for physics-like notation (derivatives, vectors, etc.)
+\usepackage{physics}
+
+% Graphics and diagrams
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.16}
+\usepackage{tikz, tikz-cd}
+\usepackage[all]{xy}
+
+% Customize page layout
+\usepackage[a4paper, margin=1in]{geometry}
+
+% List customization
+\usepackage{enumitem}
+
+% Cross-referencing and hyperlinks
+\usepackage{hyperref}
+\usepackage{cleveref}
+
+% Colors for diagrams (optional)
+\usepackage{xcolor}
+
+% Set page background and text color
+\usepackage{pagecolor} % For setting background color
+\pagecolor{black} % Set background to black
+\color{white} % Set font color to white
+
+\usepackage{biblatex}
+\addbibresource{references.bib}
+
+% Custom theorem environments
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+
+% Definition and Remark environments
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}[section]
+
+\theoremstyle{remark}
+\newtheorem{remark}{Remark}
+
+\title{Introducão á Análise Matemática - Exercicios}
+\author{Equipa Krypton}
+
+% ---------------Begining of the document------------------%
+
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+
+Um bom livro de análise matemática avancada é o:  \cite{friedman1970foundations}.
+
+
+% Zona bibliográfica
+\newpage
+\section*{Bibliography}
+\printbibliography
+
+
+
+\end{document}
