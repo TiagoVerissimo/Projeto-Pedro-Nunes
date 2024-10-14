@@ -41,9 +41,4 @@ Estas são alguns livros clássicos altamente recomendados para aprender anális
     - *Visão Geral*: Este livro fornece numerosos contraexemplos que ilustram por que certas condições nos teoremas são necessárias.
     - *Por que é um Clássico*: Compreender contraexemplos é crucial em análise, e este livro aguça o pensamento analítico.
 
-**Dicas para Escolher o Livro Certo**:
-- **Avalie o Seu Nível de Conforto**: Alguns livros são mais rigorosos e podem assumir um nível mais elevado de maturidade matemática.
-- **Pré-visualize se Possível**: Veja capítulos de amostra ou conjuntos de problemas para ver se o estilo do autor ressoa consigo.
-- **Material Suplementar**: Não hesite em usar múltiplos recursos. Por vezes, uma explicação alternativa pode fazer um conceito ficar claro.
-
 Estes clássicos resistiram ao teste do tempo e são altamente recomendados para desenvolver uma compreensão sólida da análise real. Bons estudos!

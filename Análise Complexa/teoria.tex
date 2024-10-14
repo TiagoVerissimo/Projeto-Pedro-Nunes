@@ -1,0 +1,97 @@
+\documentclass{article}
+
+\input{packages.tex}
+
+\title{Introducão á Análise Complexa - Teoria}
+\author{Equipa Krypton}
+
+% ---------------Begining of the document------------------%
+
+
+\begin{document}
+% I will writing in english given that
+% my keyboard has a english layout, after I will translate the work.
+
+
+\maketitle
+
+\begin{abstract}
+    This text is a very complete coverage in Portuguese of the theory of Complex Analysis.
+    One should go from not knowing nothing at all to be at research level.
+\end{abstract}
+
+\section{Pre-requisites}
+To read this text the only thing the readers need is a good knowledge on real analysis in
+one variable, we recommend for a graduate read in the subbject we recommend \cite{rudin_principles_1976}
+and for an undergraduate approach we recommend \cite{abbott_understanding_2015}.
+
+\section{Historical Context}
+To be made after. I have first to know the specifics of the subject and only after
+write the history of the subject.
+
+\section{The Complex Number System}
+
+\subsection{What are Complex Numbers?}
+
+\begin{definition}[Complex Numbers]
+    We define the complex numbers as the algebraic field $(\mathbb{R}^2,+,*)$ where
+    $$
+    \mathbb{R}^2 := \{(a,b) : a,b \in \mathbb{R}\}
+    $$
+    that is equiped with the following operations
+    \begin{align*}
+        & (a,b) + (c,d) = (a+b,c+d) \\
+        & (a,b) * (c,d) = (ac-bd,bc+ad)
+    \end{align*}
+\end{definition}
+
+\begin{remark}
+    If we define a set
+    $$
+    \mathbb{C} := \{ a+bi : a,b \in \mathbb{R}\}
+    $$
+    where $i = \sqrt{-1}$ is called a "imaginary" number, and where the $+,*$ are defined as
+    \begin{align*}
+        & (a+bi) + (c+di) := a+c + i(b+d) \\
+        & (a+bi)*(c+di) := ac-bd + i (ad + bc)
+    \end{align*}
+    we can actually make an isomorphism $\mathbb{R}^2 \cong \mathbb{C}$ via $(a,b) \mapsto a+bi$
+    which is what is commonly called a complex number, there are good reasons to adopt this
+    notation therefore that is what we will do from now onwards in the text.
+\end{remark}
+
+We said in the definition that  $\mathbb{C}$ was an algebraic field, therefore there must
+exist multiplicative inverses, to find such objects we notice that for a complex number $z$
+the following indentity holds 
+$$
+z^{-1} := \frac{a}{a^2 + b^2} - i (\frac{b}{a^2 + b^2})
+$$
+
+Just notice that $zz^{-1}=z^{-1}z = 1$ which is to say that indeed
+we have a multiplicative inverse for any $z \ne 0$.
+
+\begin{remark}
+    We define the real part $\Re$ and the imaginary part $\Im$ of a complex number $z:=a+bi$ as
+    the following $\Re z = a$ and $\Im z = b$.
+\end{remark}
+
+\begin{definition}[Absolute Value and Conjugate]
+    Let $z$ be a complex number we define the absolute value $|z|$ of $z$ as the real number
+    $|z|:= a^2 + b^2$ and the conjugate $\bar{z}$ of $z$ as the value $\bar{z}:= a-ib$.
+\end{definition}
+
+\begin{remark}
+    The algebraic identity $z\bar{z}= |z|^2$ is good to know from times to times.
+\end{remark}
+
+
+\section{The Geometry of Complex Numbers}
+
+% Zona bibliográfica
+\newpage
+\section*{Bibliography}
+\printbibliography
+
+
+
+\end{document}
